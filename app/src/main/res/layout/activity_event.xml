@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.iamunclexu.android.MyAnotherComponent
+        android:id="@+id/outest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        android:paddingTop="200dp">
+
+        <com.iamunclexu.android.MyComponent
+            android:id="@+id/outter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary"
+            android:orientation="vertical">
+
+            <com.iamunclexu.android.MyView
+                android:id="@+id/inner"
+                android:layout_width="80dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/colorPrimaryDark">
+
+            </com.iamunclexu.android.MyView>
+
+        </com.iamunclexu.android.MyComponent>
+
+    </com.iamunclexu.android.MyAnotherComponent>
+
+</LinearLayout>
